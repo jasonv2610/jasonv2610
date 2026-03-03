@@ -33,22 +33,22 @@
 
 ---
 
-### JVI Assistant — AI Operating System `v2.1 · Production`
+### JVI Assistant: AI Operating System `v2.1 · Production`
 
 > Hub-and-spoke multi-agent system. One orchestrator. Seven specialized agents. Running live.
 
 <table>
   <tr>
     <td>🍣 <b>Operations</b></td>
-    <td>Real-time restaurant ops — inventory, 86/un86 logs, daily sales tracking</td>
+    <td>Manages real-time inventory, 86/un86 logging, and daily sales tracking</td>
   </tr>
   <tr>
     <td>🔍 <b>Intelligence</b></td>
-    <td>RAG research agent — Perplexity + Supabase knowledge base, live web queries</td>
+    <td>Live research through Perplexity with RAG search across the Supabase knowledge base</td>
   </tr>
   <tr>
     <td>📄 <b>Documents</b></td>
-    <td>AI contract generation — VIP bookings, catering agreements, full lifecycle tracking</td>
+    <td>Generates contracts for VIP bookings and catering, tracking the full approval lifecycle</td>
   </tr>
   <tr>
     <td>💰 <b>Finance</b></td>
@@ -56,7 +56,7 @@
   </tr>
   <tr>
     <td>🔧 <b>Self-Healing</b></td>
-    <td>Autonomous error handler — classifies, repairs, and escalates without human input</td>
+    <td>Classifies errors, applies known fixes, and escalates edge cases without human input</td>
   </tr>
 </table>
 
