@@ -44,11 +44,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-always_building-6d8b74?style=flat-square&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/agents-deployed-6d8b74?style=flat-square&labelColor=1a1a2e"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/bugs-becoming_features-6d8b74?style=flat-square&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/workflows-never_sleep-6d8b74?style=flat-square&labelColor=1a1a2e"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/coffee-critical-6d8b74?style=flat-square&labelColor=1a1a2e&logo=buymeacoffee&logoColor=white"/>
+  <img src="https://img.shields.io/badge/coffee-it's_complicated-6d8b74?style=flat-square&labelColor=1a1a2e&logo=buymeacoffee&logoColor=white"/>
 </p>
 
 ---
