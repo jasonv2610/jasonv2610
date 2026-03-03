@@ -21,7 +21,7 @@ jobs:
         id: validator
         uses: actions/github-script@v7
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         with:
           script: |
             const fs    = require('fs');
@@ -92,26 +92,26 @@ jobs:
               '- Next action: [one item, one change]',
             ].join('\n');
 
-            // ── Call Claude API ────────────────────────────────────────────
-            const apiKey = process.env.ANTHROPIC_API_KEY;
-            if (!apiKey) throw new Error('ANTHROPIC_API_KEY not set');
+            // ── Call Gemini API (free tier) ────────────────────────────────
+            const apiKey = process.env.GEMINI_API_KEY;
+            if (!apiKey) throw new Error('GEMINI_API_KEY not set');
 
             const requestBody = JSON.stringify({
-              model: 'claude-sonnet-4-6',
-              max_tokens: 4096,
-              system: systemPrompt,
-              messages: [{ role: 'user', content: 'GitHub Profile README to validate:\n\n' + readme.slice(0, 12000) }],
+              system_instruction: { parts: [{ text: systemPrompt }] },
+              contents: [{
+                parts: [{ text: 'GitHub Profile README to validate:\n\n' + readme.slice(0, 12000) }]
+              }],
+              generationConfig: { maxOutputTokens: 4096, temperature: 0.2 },
             });
 
             const report = await new Promise((resolve, reject) => {
+              const path = '/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey;
               const req = https.request({
-                hostname: 'api.anthropic.com',
-                path: '/v1/messages',
+                hostname: 'generativelanguage.googleapis.com',
+                path: path,
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
-                  'x-api-key': apiKey,
-                  'anthropic-version': '2023-06-01',
                   'Content-Length': Buffer.byteLength(requestBody),
                 },
               }, (res) => {
@@ -119,11 +119,11 @@ jobs:
                 res.on('data', (chunk) => { data += chunk; });
                 res.on('end', () => {
                   if (res.statusCode !== 200) {
-                    reject(new Error('Claude API ' + res.statusCode + ': ' + data));
+                    reject(new Error('Gemini API ' + res.statusCode + ': ' + data));
                     return;
                   }
                   const parsed = JSON.parse(data);
-                  resolve(parsed.content.map(b => b.type === 'text' ? b.text : '').join(''));
+                  resolve(parsed.candidates[0].content.parts.map(p => p.text || '').join(''));
                 });
               });
               req.on('error', reject);
