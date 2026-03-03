@@ -33,9 +33,34 @@
 
 ---
 
-**[JVI Assistant](https://github.com/jasonv2610/JVI-Assistant-Master-2026)** — Personal ops system with self-healing workflows
+### JVI Assistant — AI Operating System `v2.1 · Production`
 
-**[Multi-Agent Architecture](https://github.com/jasonv2610/multi-agent-orchestration-architecture)** — Patterns from building the above
+> Hub-and-spoke multi-agent system. One orchestrator. Seven specialized agents. Running live.
+
+<table>
+  <tr>
+    <td>🍣 <b>Operations</b></td>
+    <td>Real-time restaurant ops — inventory, 86/un86 logs, daily sales tracking</td>
+  </tr>
+  <tr>
+    <td>🔍 <b>Intelligence</b></td>
+    <td>RAG research agent — Perplexity + Supabase knowledge base, live web queries</td>
+  </tr>
+  <tr>
+    <td>📄 <b>Documents</b></td>
+    <td>AI contract generation — VIP bookings, catering agreements, full lifecycle tracking</td>
+  </tr>
+  <tr>
+    <td>💰 <b>Finance</b></td>
+    <td>Receipt OCR, expense tracking, financial analysis via Google Sheets</td>
+  </tr>
+  <tr>
+    <td>🔧 <b>Self-Healing</b></td>
+    <td>Autonomous error handler — classifies, repairs, and escalates without human input</td>
+  </tr>
+</table>
+
+**[View System →](https://github.com/jasonv2610/JVI-Assistant-Master-2026)** &nbsp;|&nbsp; **[Architecture Patterns →](https://github.com/jasonv2610/multi-agent-orchestration-architecture)**
 
 ---
 
