@@ -1,99 +1,83 @@
-# Hi, I'm Jason V
-
-**AI Automation Engineer** | Building autonomous multi-agent systems
-
-[![Profile Views](https://komarev.com/ghpvc/?username=jasonv2610&color=blueviolet&style=flat-square)](https://github.com/jasonv2610)
-
-I design and build production AI systems using n8n, Claude, and multi-agent orchestration patterns. My focus is on creating autonomous workflows that handle real-world operational tasks without human intervention.
-
----
-
-## Tech Stack
-
-### AI & Machine Learning
-![Claude](https://img.shields.io/badge/Claude_AI-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-### Automation & Orchestration
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-### Backend & Database
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-### Cloud & Infrastructure
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
----
-
-## GitHub Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jasonv2610&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/jasonv2610/jasonv2610/main/header.svg" width="100%" alt="Jason Vo header"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jasonv2610&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=87A878&center=true&vCenter=true&width=700&lines=Creativity+is+a+Key+to+another+Universe%21" alt="Typing SVG"/>
+</p>
+
+<p align="center">
+  <img alt="Claude AI" src="https://img.shields.io/badge/Claude_AI-191919?style=flat-square&logo=anthropic&logoColor=white"/>
+  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google-gemini&logoColor=white"/>
+  <img alt="ChatGPT" src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white"/>
+  <img alt="n8n" src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
+  <img alt="Apps Script" src="https://img.shields.io/badge/Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white"/>
+</p>
+<p align="center">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+</p>
+<p align="center">
+  <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/>
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+  <img alt="Cursor" src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white"/>
+  <img alt="GitKraken" src="https://img.shields.io/badge/GitKraken-179287?style=flat-square&logo=gitkraken&logoColor=white"/>
+  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/>
 </p>
 
 ---
 
-## Profile Summary
+**[JVI Assistant](https://github.com/jasonv2610/JVI-Assistant-Master-2026)** — Personal ops system with self-healing workflows
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jasonv2610&theme=tokyonight" alt="Profile Details" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jasonv2610&theme=tokyonight" alt="Repos per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jasonv2610&theme=tokyonight" alt="Most Commit Language" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jasonv2610&theme=tokyonight" alt="Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jasonv2610&theme=tokyonight&utcOffset=8" alt="Productive Time" />
-</p>
+**[Multi-Agent Architecture](https://github.com/jasonv2610/multi-agent-orchestration-architecture)** — Patterns from building the above
 
 ---
 
-## Top Languages
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1800&color=87A878&center=true&vCenter=true&width=650&lines=%E2%9A%A1+If+it+runs+twice%2C+I+automate+it.;%F0%9F%A4%96+My+agents+work+while+I+sleep.;%F0%9F%A7%A0+Building+a+second+brain%2C+one+webhook+at+a+time.;%E2%98%95+Powered+by+caffeine.;Multi-Agent+Orchestration;Self-healing+workflows+that+run+without+me" alt="Jason in four lines"/>
+</p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jasonv2610&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
+  <img src="https://img.shields.io/badge/status-always_building-6d8b74?style=flat-square&labelColor=1a1a2e"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/bugs-becoming_features-6d8b74?style=flat-square&labelColor=1a1a2e"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/coffee-critical-6d8b74?style=flat-square&labelColor=1a1a2e&logo=buymeacoffee&logoColor=white"/>
 </p>
 
 ---
 
-## Recent Activity
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:16213e&height=80&text=Automate%20the%20boring.%20Amplify%20the%20brilliant.&fontSize=22&fontColor=87a878&animation=fadeIn&fontAlignY=55"/>
+</p>
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
-## Featured Projects
-
-<a href="https://github.com/jasonv2610/JVI-Assistant-Master-2026">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jasonv2610&repo=JVI-Assistant-Master-2026&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/jasonv2610/multi-agent-orchestration-architecture">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jasonv2610&repo=multi-agent-orchestration-architecture&theme=tokyonight&hide_border=true" />
-</a>
-
----
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jasonv2610)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&pause=2000&color=6d8b74&center=true&vCenter=true&multiline=true&width=700&height=60&lines=Build+agents%2C+not+just+code.+Ship+systems%2C+not+just+features.;Every+workflow+I+deploy+is+a+decision+I+never+have+to+make+again." alt="Manifesto"/>
+</p>
 
 ---
 
 <p align="center">
-  <i>Building the future of autonomous AI systems, one workflow at a time.</i>
+  <img src="https://streak-stats.demolab.com?user=jasonv2610&theme=tokyonight-duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"/>
+</p>
+
+---
+
+![GitHub Metrics](./github-metrics.svg)
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jasonv2610/jasonv2610/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jasonv2610/jasonv2610/output/github-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/jasonv2610/jasonv2610/output/github-snake-dark.svg"/>
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:87a878,50:6d8b74,100:355070&height=100&section=footer"/>
 </p>
