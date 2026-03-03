@@ -16,6 +16,7 @@
   <img alt="Slack" src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white"/>
   <img alt="Anthropic API" src="https://img.shields.io/badge/Anthropic_API-191919?style=flat-square&logo=anthropic&logoColor=white"/>
   <img alt="OpenAI API" src="https://img.shields.io/badge/OpenAI_API-74AA9C?style=flat-square&logo=openai&logoColor=white"/>
+  <img alt="Perplexity" src="https://img.shields.io/badge/Perplexity-20808D?style=flat-square&logo=perplexity&logoColor=white"/>
 </p>
 <p align="center">
   <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/>
