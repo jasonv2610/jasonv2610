@@ -1,0 +1,182 @@
+name: Portfolio Validator
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+    paths-ignore:
+      - 'github-metrics.svg'
+      - 'github-snake*.svg'
+      - 'header.svg'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Portfolio Validator
+        id: validator
+        run: |
+          node << 'NODESCRIPT'
+          const fs   = require('fs');
+          const https = require('https');
+
+          // ── Read README ───────────────────────────────────────────────────────
+          const readme = fs.readFileSync('README.md', 'utf8');
+
+          // ── Prompt ────────────────────────────────────────────────────────────
+          const systemPrompt = `You are Marcus Lin, Senior Portfolio Strategist and former Head of Talent Brand at two YC-backed companies, with 14 years of experience reviewing engineering, product, and consulting portfolios for hiring panels, client pitches, and investor decks.
+
+Your job is not to make a portfolio sound impressive. Your job is to make it accurate, consistent, and specific enough that the right audience immediately understands what this person does and what they have shipped.
+
+JVI Brand Rules (non-negotiable — treat as hard violations):
+- No em dashes (—) anywhere
+- No phrases: "passionate about", "cutting-edge", "leveraging", "meaningful impact", "transforming", "turning X into Y", "driving X"
+- No vague taglines with zero specificity
+- No aspirational tech badges (list only tools actually used in described projects)
+- Outcomes-first: every project description must state a real measurable result
+- No "across industries" or equivalent vague scope language
+
+Run the six-point validation framework against each identifiable section of the portfolio.
+
+CHECKPOINT 1 — OUTCOME SPECIFICITY: Every project description must state a real, measurable outcome.
+CHECKPOINT 2 — TECH STACK ACCURACY: Every badge/tool listed must match tools described in the project.
+CHECKPOINT 3 — BRAND VOICE COMPLIANCE: Language must comply with JVI Brand Rules above.
+CHECKPOINT 4 — AUDIENCE ALIGNMENT: Framing must speak to the target audience (hiring managers / clients / collaborators).
+CHECKPOINT 5 — TAGLINE AND HEADLINE QUALITY: Headlines must be minimal, specific, meaningful. No poetry, no adjective stacking.
+CHECKPOINT 6 — CROSS-ITEM CONSISTENCY: All sections must feel like the same professional with the same voice and specificity level.
+
+Output format (exactly):
+
+## Portfolio Validator Report
+
+### Scope
+- Items reviewed: [count of identifiable sections]
+- Brand rules in effect: JVI standard (no em dashes, no marketing-speak, outcomes-first)
+
+### Section-by-Section Audit
+
+For each section:
+**[Section Name]**
+| Checkpoint | Status | Finding |
+|---|---|---|
+| 1. Outcome Specificity | PASS/FAIL | [finding] |
+| 2. Tech Stack Accuracy | PASS/FAIL | [finding] |
+| 3. Brand Voice Compliance | PASS/FAIL | [finding] |
+| 4. Audience Alignment | PASS/FAIL | [finding] |
+| 5. Tagline & Headline Quality | PASS/FAIL | [finding] |
+| 6. Cross-Item Consistency | PASS/FAIL | [finding] |
+VERDICT: PASS / FLAG
+
+If FLAGGED, include:
+> ORIGINAL: [exact failing text]
+> REASON: [which checkpoint and why]
+> FIX: [corrected rewrite, ready to use]
+
+### Failure Summary
+| Checkpoint | Sections Failed |
+|---|---|
+[table rows for any checkpoint with 1+ failures]
+
+### Brand-Consistency Verdict
+- Pass rate: X/Y sections (N%)
+- Rating: CONSISTENT / MOSTLY CONSISTENT / INCONSISTENT / NOT PORTFOLIO-READY
+- Next action: [single most important fix — one item, one change]`;
+
+          const userMessage = `GitHub Profile README to validate:\n\n${readme.slice(0, 12000)}`;
+
+          // ── Call Claude API ───────────────────────────────────────────────────
+          const apiKey = process.env.ANTHROPIC_API_KEY;
+          if (!apiKey) {
+            console.error('ANTHROPIC_API_KEY not set');
+            process.exit(1);
+          }
+
+          const body = JSON.stringify({
+            model: 'claude-sonnet-4-6',
+            max_tokens: 4096,
+            system: systemPrompt,
+            messages: [{ role: 'user', content: userMessage }],
+          });
+
+          const result = await new Promise((resolve, reject) => {
+            const req = https.request(
+              {
+                hostname: 'api.anthropic.com',
+                path: '/v1/messages',
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'x-api-key': apiKey,
+                  'anthropic-version': '2023-06-01',
+                  'Content-Length': Buffer.byteLength(body),
+                },
+              },
+              (res) => {
+                let data = '';
+                res.on('data', (chunk) => { data += chunk; });
+                res.on('end', () => resolve({ status: res.statusCode, body: data }));
+              }
+            );
+            req.on('error', reject);
+            req.write(body);
+            req.end();
+          });
+
+          if (result.status !== 200) {
+            console.error('Claude API error:', result.body);
+            process.exit(1);
+          }
+
+          const parsed = JSON.parse(result.body);
+          const report = parsed.content.map(b => b.type === 'text' ? b.text : '').join('');
+
+          // ── Write to GitHub Step Summary ──────────────────────────────────────
+          const summaryFile = process.env.GITHUB_STEP_SUMMARY;
+          if (summaryFile) {
+            fs.writeFileSync(summaryFile, `# Portfolio Validator — ${new Date().toISOString().slice(0,10)}\n\n${report}`, 'utf8');
+          }
+
+          // ── Detect failures for exit code ─────────────────────────────────────
+          const failCount = (report.match(/VERDICT: FLAG/g) || []).length;
+          if (failCount > 0) {
+            console.log(`\nValidator: ${failCount} section(s) flagged. See job summary for details.`);
+          } else {
+            console.log('\nValidator: All sections PASS.');
+          }
+
+          // ── Write outputs ─────────────────────────────────────────────────────
+          const outputFile = process.env.GITHUB_OUTPUT;
+          if (outputFile) {
+            fs.appendFileSync(outputFile, `flag_count=${failCount}\n`);
+            const rating = report.match(/Rating: ([A-Z ]+)/)?.[1]?.trim() || 'UNKNOWN';
+            fs.appendFileSync(outputFile, `rating=${rating}\n`);
+          }
+
+          NODESCRIPT
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Open issue if portfolio needs work
+        if: ${{ steps.validator.outputs.flag_count > 0 }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const flagCount = '${{ steps.validator.outputs.flag_count }}';
+            const rating    = '${{ steps.validator.outputs.rating }}';
+            const runUrl    = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              title: `Portfolio Validator: ${flagCount} section(s) flagged — ${rating}`,
+              body:  `The Portfolio Validator flagged ${flagCount} section(s) on the latest push.\n\n**Rating:** ${rating}\n\n[View full report](${runUrl}) (see job summary)\n\nClose this issue once fixes are applied and the next push passes.`,
+              labels: ['portfolio', 'content-quality'],
+            });
