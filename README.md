@@ -60,7 +60,7 @@
   </tr>
 </table>
 
-**[View System →](https://github.com/jasonv2610/JVI-Assistant-Master-2026)** &nbsp;|&nbsp; **[Architecture Patterns →](https://github.com/jasonv2610/multi-agent-orchestration-architecture)**
+**[Multi-Agent Architecture →](https://github.com/jasonv2610/multi-agent-orchestration-architecture)** &nbsp;|&nbsp; **[Marketing Analytics →](https://github.com/jasonv2610/marketing-analytics-portfolio)** &nbsp;|&nbsp; **[Prompt Engineering →](https://github.com/jasonv2610/prompt-architecture-playbook)**
 
 ---
 
