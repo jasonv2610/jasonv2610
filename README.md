@@ -60,7 +60,7 @@
   </tr>
 </table>
 
-**[Multi-Agent Architecture →](https://github.com/jasonv2610/multi-agent-orchestration-architecture)** &nbsp;|&nbsp; **[Marketing Analytics →](https://github.com/jasonv2610/marketing-analytics-portfolio)** &nbsp;|&nbsp; **[Prompt Engineering →](https://github.com/jasonv2610/prompt-architecture-playbook)**
+**[Multi-Agent Architecture →](https://github.com/jasonv2610/multi-agent-orchestration-architecture)** &nbsp;|&nbsp; **[Prompt Engineering →](https://github.com/jasonv2610/prompt-architecture-playbook)**
 
 ---
 
