@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#glow)" stroke="#87A878" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Receipt with wavy bottom edge -->
+    <path d="M12 7h16v24l-2.5-1.5-2.5 1.5-2.5-1.5L18 31l-2.5-1.5L13 31l-1-1.5z"/>
+    <!-- Scan lines across receipt -->
+    <line x1="15" y1="13" x2="25" y2="13" stroke-opacity="0.9"/>
+    <line x1="15" y1="17" x2="25" y2="17" stroke-opacity="0.6"/>
+    <line x1="15" y1="21" x2="25" y2="21" stroke-opacity="0.4"/>
+    <!-- Dollar sign accent -->
+    <text x="20" y="18" text-anchor="middle" font-size="0" fill="none"/>
+    <!-- Small scan beam effect on left -->
+    <line x1="10" y1="15" x2="12" y2="15" stroke="#6d8b74" stroke-width="2" stroke-opacity="0.6"/>
+    <line x1="10" y1="19" x2="12" y2="19" stroke="#6d8b74" stroke-width="2" stroke-opacity="0.4"/>
+  </g>
+</svg>
