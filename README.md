@@ -50,23 +50,23 @@
 
 <table>
   <tr>
-    <td><b>Operations</b></td>
+    <td><img src="./icons/operations.svg" width="24" height="24" alt="Operations"/> <b>Operations</b></td>
     <td>Reduced 86-item response from manual lookup to under 30 seconds; all stock events logged in real time via n8n</td>
   </tr>
   <tr>
-    <td><b>Intelligence</b></td>
+    <td><img src="./icons/intelligence.svg" width="24" height="24" alt="Intelligence"/> <b>Intelligence</b></td>
     <td>Returns research answers in under 10 seconds by routing queries through Perplexity and RAG over the Supabase knowledge base</td>
   </tr>
   <tr>
-    <td><b>Documents</b></td>
+    <td><img src="./icons/documents.svg" width="24" height="24" alt="Documents"/> <b>Documents</b></td>
     <td>Cut VIP contract turnaround from 2 days to same-session by auto-generating and tracking the full approval lifecycle via Google Docs API</td>
   </tr>
   <tr>
-    <td><b>Finance</b></td>
+    <td><img src="./icons/finance.svg" width="24" height="24" alt="Finance"/> <b>Finance</b></td>
     <td>Eliminated manual receipt entry; OCR + auto-categorization logs expenses to Google Sheets in one step</td>
   </tr>
   <tr>
-    <td><b>Self-Healing</b></td>
+    <td><img src="./icons/self-healing.svg" width="24" height="24" alt="Self-Healing"/> <b>Self-Healing</b></td>
     <td>Resolves known workflow errors without human input; escalates unknowns to Telegram, cutting unresolved downtime</td>
   </tr>
 </table>
