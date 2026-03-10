@@ -37,7 +37,7 @@
       50% { opacity: 1; }
     }
     .frame {
-      stroke: url(#blue-milky);
+      stroke: #2d3b28;
       stroke-width: 1.8;
       fill: none;
       filter: url(#glow);
