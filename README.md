@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="./icons/divider.svg" width="100%" alt=""/>
+  <img src="./icons/border-top.svg" width="100%" alt=""/>
 </p>
 
 <!-- Row 1: AI & Models -->
@@ -51,7 +51,7 @@
 </p>
 
 <p align="center">
-  <img src="./icons/divider.svg" width="100%" alt=""/>
+  <img src="./icons/border-bottom.svg" width="100%" alt=""/>
 </p>
 
 ---
