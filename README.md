@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=87A878&center=true&vCenter=true&width=700&lines=Build+once.+Solve+business+problems." alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=87A878&center=true&vCenter=true&width=700&lines=Build+once.+Save+20+hours+a+week." alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -29,6 +29,10 @@
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
   <img alt="Wix" src="https://img.shields.io/badge/Wix-FAAD4D?style=flat-square&logo=wix&logoColor=black"/>
   <img alt="ngrok" src="https://img.shields.io/badge/ngrok-1F1E37?style=flat-square&logo=ngrok&logoColor=white"/>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img alt="Upstash" src="https://img.shields.io/badge/Upstash-00E9A3?style=flat-square&logo=upstash&logoColor=black"/>
+  <img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
 </p>
 
 ---
@@ -39,23 +43,23 @@
 
 <table>
   <tr>
-    <td>🍣 <b>Operations</b></td>
+    <td><b>Operations</b></td>
     <td>Reduced 86-item response from manual lookup to under 30 seconds; all stock events logged in real time via n8n</td>
   </tr>
   <tr>
-    <td>🔍 <b>Intelligence</b></td>
+    <td><b>Intelligence</b></td>
     <td>Returns research answers in under 10 seconds by routing queries through Perplexity and RAG over the Supabase knowledge base</td>
   </tr>
   <tr>
-    <td>📄 <b>Documents</b></td>
+    <td><b>Documents</b></td>
     <td>Cut VIP contract turnaround from 2 days to same-session by auto-generating and tracking the full approval lifecycle via Google Docs API</td>
   </tr>
   <tr>
-    <td>💰 <b>Finance</b></td>
+    <td><b>Finance</b></td>
     <td>Eliminated manual receipt entry; OCR + auto-categorization logs expenses to Google Sheets in one step</td>
   </tr>
   <tr>
-    <td>🔧 <b>Self-Healing</b></td>
+    <td><b>Self-Healing</b></td>
     <td>Resolves known workflow errors without human input; escalates unknowns to Telegram, cutting unresolved downtime</td>
   </tr>
 </table>
@@ -65,7 +69,7 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1800&color=87A878&center=true&vCenter=true&width=650&lines=%E2%9A%A1+If+it+runs+twice%2C+I+automate+it.;%F0%9F%A4%96+My+agents+work+while+I+sleep.;%F0%9F%A7%A0+Building+a+second+brain%2C+one+webhook+at+a+time.;%E2%98%95+Powered+by+caffeine.;Multi-Agent+Orchestration;Self-healing+workflows+that+run+without+me" alt="Jason in four lines"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1800&color=87A878&center=true&vCenter=true&width=650&lines=%E2%9A%A1+If+it+runs+twice%2C+I+automate+it.;%F0%9F%A4%96+My+agents+work+while+I+sleep.;%F0%9F%A7%A0+6+agents%2C+12+workflows%2C+zero+babysitting.;%E2%98%95+Powered+by+caffeine.;Multi-Agent+Orchestration;Self-healing+workflows+that+run+without+me" alt="Jason in four lines"/>
 </p>
 
 <p align="center">
@@ -79,7 +83,7 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:16213e&height=80&text=Automate%20the%20boring.%20Amplify%20the%20brilliant.&fontSize=22&fontColor=87a878&animation=fadeIn&fontAlignY=55"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:16213e&height=80&text=Automate%20the%20boring.%20Amplify%20what%20matters.&fontSize=22&fontColor=87a878&animation=fadeIn&fontAlignY=55"/>
 </p>
 
 <p align="center">
