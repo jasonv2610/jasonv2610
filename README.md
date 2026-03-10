@@ -6,9 +6,8 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=87A878&center=true&vCenter=true&width=700&lines=Build+once.+Save+20+hours+a+week." alt="Typing SVG"/>
 </p>
 
-<!-- ⚡ Electrical border: top -->
 <p align="center">
-  <img src="./icons/tech-border-top.svg" width="100%" alt=""/>
+  <img src="./icons/divider.svg" width="100%" alt=""/>
 </p>
 
 <!-- Row 1: AI & Models -->
@@ -51,9 +50,8 @@
   <img alt="ngrok" src="https://img.shields.io/badge/ngrok-2D3B28?style=flat-square&logo=ngrok&logoColor=white&labelColor=0a0f1c"/>
 </p>
 
-<!-- ⚡ Electrical border: bottom -->
 <p align="center">
-  <img src="./icons/tech-border-bottom.svg" width="100%" alt=""/>
+  <img src="./icons/divider.svg" width="100%" alt=""/>
 </p>
 
 ---
