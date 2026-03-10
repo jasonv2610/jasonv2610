@@ -1,20 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
   <defs>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="1.8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <g filter="url(#glow)" stroke="#87A878" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Gear: 6-tooth cog -->
-    <path d="M20 8.5l1.2 2.5 2.7.2 2.1-1.8 1.4 1.4-1.8 2.1.2 2.7 2.5 1.2v2l-2.5 1.2-.2 2.7 1.8 2.1-1.4 1.4-2.1-1.8-2.7.2L20 31.5l-1.2-2.5-2.7-.2-2.1 1.8-1.4-1.4 1.8-2.1-.2-2.7L11.7 23v-2l2.5-1.2.2-2.7-1.8-2.1 1.4-1.4 2.1 1.8 2.7-.2z"/>
-    <!-- Clock face in center -->
-    <circle cx="20" cy="20" r="4.5"/>
-    <!-- Clock hands: hour (pointing ~2 o'clock) and minute (pointing 12) -->
-    <line x1="20" y1="20" x2="20" y2="16.5"/>
-    <line x1="20" y1="20" x2="22.5" y2="18"/>
+  <g filter="url(#glow)" stroke="#06b6d4" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 8-tooth angular gear -->
+    <path d="M20,8 L23.1,12.6 L28.5,11.5 L27.4,16.9 L32,20 L27.4,23.1 L28.5,28.5 L23.1,27.4 L20,32 L16.9,27.4 L11.5,28.5 L12.6,23.1 L8,20 L12.6,16.9 L11.5,11.5 L16.9,12.6 Z"/>
+    <!-- Inner hub ring -->
+    <circle cx="20" cy="20" r="5"/>
+    <!-- HUD tick marks (12, 3, 6, 9 o'clock) -->
+    <line x1="20" y1="15.5" x2="20" y2="17"/>
+    <line x1="24.5" y1="20" x2="23"  y2="20"/>
+    <line x1="20"   y1="24.5" x2="20" y2="23"/>
+    <line x1="15.5" y1="20" x2="17"  y2="20"/>
+    <!-- Clock hands -->
+    <line x1="20" y1="20" x2="20"   y2="16.5"/>
+    <line x1="20" y1="20" x2="23"   y2="21.2"/>
   </g>
 </svg>
