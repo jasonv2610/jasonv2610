@@ -6,33 +6,42 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=87A878&center=true&vCenter=true&width=700&lines=Build+once.+Save+20+hours+a+week." alt="Typing SVG"/>
 </p>
 
-<!-- Apex: Flagship AI -->
+<!-- ⚡ Electrical border: top -->
+<p align="center">
+  <img src="./icons/tech-border-top.svg" width="100%" alt=""/>
+</p>
+
+<!-- Row 1: AI & Models -->
 <p align="center">
   <img alt="Claude AI" src="https://img.shields.io/badge/Claude_AI-87A878?style=flat-square&logo=anthropic&logoColor=white&labelColor=0a0f1c"/>
   <img alt="ChatGPT" src="https://img.shields.io/badge/ChatGPT-2D3B28?style=flat-square&logo=openai&logoColor=white&labelColor=0a0f1c"/>
-</p>
-
-<!-- Tier 2: AI Ecosystem -->
-<p align="center">
   <img alt="Gemini" src="https://img.shields.io/badge/Gemini-87A878?style=flat-square&logo=google-gemini&logoColor=white&labelColor=0a0f1c"/>
   <img alt="Perplexity" src="https://img.shields.io/badge/Perplexity-2D3B28?style=flat-square&logo=perplexity&logoColor=white&labelColor=0a0f1c"/>
   <img alt="Anthropic API" src="https://img.shields.io/badge/Anthropic_API-87A878?style=flat-square&logo=anthropic&logoColor=white&labelColor=0a0f1c"/>
   <img alt="OpenAI API" src="https://img.shields.io/badge/OpenAI_API-2D3B28?style=flat-square&logo=openai&logoColor=white&labelColor=0a0f1c"/>
 </p>
 
-<!-- Tier 3: Automation & Dev Tools -->
+<!-- Row 2: Automation & Messaging -->
 <p align="center">
   <img alt="n8n" src="https://img.shields.io/badge/n8n-87A878?style=flat-square&logo=n8n&logoColor=white&labelColor=0a0f1c"/>
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2D3B28?style=flat-square&logo=github-actions&logoColor=white&labelColor=0a0f1c"/>
   <img alt="Apps Script" src="https://img.shields.io/badge/Apps_Script-87A878?style=flat-square&logo=google&logoColor=white&labelColor=0a0f1c"/>
   <img alt="Slack" src="https://img.shields.io/badge/Slack-2D3B28?style=flat-square&logo=slack&logoColor=white&labelColor=0a0f1c"/>
   <img alt="Telegram" src="https://img.shields.io/badge/Telegram-87A878?style=flat-square&logo=telegram&logoColor=white&labelColor=0a0f1c"/>
-  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-2D3B28?style=flat-square&logo=visual-studio-code&logoColor=white&labelColor=0a0f1c"/>
-  <img alt="Cursor" src="https://img.shields.io/badge/Cursor-87A878?style=flat-square&logo=cursor&logoColor=white&labelColor=0a0f1c"/>
-  <img alt="GitKraken" src="https://img.shields.io/badge/GitKraken-2D3B28?style=flat-square&logo=gitkraken&logoColor=white&labelColor=0a0f1c"/>
+  <img alt="Google Sheets" src="https://img.shields.io/badge/Google_Sheets-2D3B28?style=flat-square&logo=google-sheets&logoColor=white&labelColor=0a0f1c"/>
 </p>
 
-<!-- Base: Data & Infrastructure -->
+<!-- Row 3: Dev Tools -->
+<p align="center">
+  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-87A878?style=flat-square&logo=visual-studio-code&logoColor=white&labelColor=0a0f1c"/>
+  <img alt="Cursor" src="https://img.shields.io/badge/Cursor-2D3B28?style=flat-square&logo=cursor&logoColor=white&labelColor=0a0f1c"/>
+  <img alt="GitKraken" src="https://img.shields.io/badge/GitKraken-87A878?style=flat-square&logo=gitkraken&logoColor=white&labelColor=0a0f1c"/>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-2D3B28?style=flat-square&logo=node.js&logoColor=white&labelColor=0a0f1c"/>
+  <img alt="Python" src="https://img.shields.io/badge/Python-87A878?style=flat-square&logo=python&logoColor=white&labelColor=0a0f1c"/>
+  <img alt="Wix" src="https://img.shields.io/badge/Wix-2D3B28?style=flat-square&logo=wix&logoColor=white&labelColor=0a0f1c"/>
+</p>
+
+<!-- Row 4: Infrastructure -->
 <p align="center">
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-87A878?style=flat-square&logo=supabase&logoColor=white&labelColor=0a0f1c"/>
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-2D3B28?style=flat-square&logo=postgresql&logoColor=white&labelColor=0a0f1c"/>
@@ -40,10 +49,11 @@
   <img alt="Vercel" src="https://img.shields.io/badge/Vercel-2D3B28?style=flat-square&logo=vercel&logoColor=white&labelColor=0a0f1c"/>
   <img alt="Upstash" src="https://img.shields.io/badge/Upstash-87A878?style=flat-square&logo=upstash&logoColor=white&labelColor=0a0f1c"/>
   <img alt="ngrok" src="https://img.shields.io/badge/ngrok-2D3B28?style=flat-square&logo=ngrok&logoColor=white&labelColor=0a0f1c"/>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-87A878?style=flat-square&logo=node.js&logoColor=white&labelColor=0a0f1c"/>
-  <img alt="Python" src="https://img.shields.io/badge/Python-2D3B28?style=flat-square&logo=python&logoColor=white&labelColor=0a0f1c"/>
-  <img alt="Google Sheets" src="https://img.shields.io/badge/Google_Sheets-87A878?style=flat-square&logo=google-sheets&logoColor=white&labelColor=0a0f1c"/>
-  <img alt="Wix" src="https://img.shields.io/badge/Wix-2D3B28?style=flat-square&logo=wix&logoColor=white&labelColor=0a0f1c"/>
+</p>
+
+<!-- ⚡ Electrical border: bottom -->
+<p align="center">
+  <img src="./icons/tech-border-bottom.svg" width="100%" alt=""/>
 </p>
 
 ---
