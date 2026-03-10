@@ -15,12 +15,12 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <linearGradient id="red-main" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8b0000"/>
-      <stop offset="30%" stop-color="#cc1100"/>
-      <stop offset="50%" stop-color="#ff1a1a"/>
-      <stop offset="70%" stop-color="#cc1100"/>
-      <stop offset="100%" stop-color="#8b0000"/>
+    <linearGradient id="green-main" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d3b0d"/>
+      <stop offset="30%" stop-color="#1a7a1a"/>
+      <stop offset="50%" stop-color="#39ff14"/>
+      <stop offset="70%" stop-color="#1a7a1a"/>
+      <stop offset="100%" stop-color="#0d3b0d"/>
     </linearGradient>
   </defs>
   <style>
@@ -37,7 +37,7 @@
       50% { opacity: 1; }
     }
     .frame {
-      stroke: url(#red-main);
+      stroke: url(#green-main);
       stroke-width: 1.8;
       fill: none;
       filter: url(#glow);
@@ -45,7 +45,7 @@
       stroke-linejoin: round;
     }
     .energy {
-      stroke: #ff4444;
+      stroke: #39ff14;
       stroke-width: 2.2;
       fill: none;
       stroke-dasharray: 20 40;
@@ -55,13 +55,13 @@
       stroke-linejoin: round;
     }
     .trace {
-      stroke: #8b0000;
+      stroke: #0d3b0d;
       stroke-width: 0.8;
       fill: none;
-      opacity: 0.5;
+      opacity: 0.6;
     }
     .trace-energy {
-      stroke: #ff4444;
+      stroke: #39ff14;
       stroke-width: 1;
       fill: none;
       stroke-dasharray: 8 52;
@@ -70,12 +70,12 @@
       opacity: 0.6;
     }
     .node {
-      fill: #cc1100;
+      fill: #1a7a1a;
       filter: url(#glow);
       animation: node-pulse 2s ease-in-out infinite;
     }
     .node-bright {
-      fill: #ff3333;
+      fill: #39ff14;
       filter: url(#glow);
       animation: node-pulse 1.5s ease-in-out infinite;
     }
@@ -106,8 +106,8 @@
   <path class="trace-energy" d="M 100,40 L 100,28 L 180,28 L 180,40" style="animation-delay:-0.5s"/>
   <path class="trace-energy" d="M 500,40 L 500,28 L 580,28 L 580,40" style="animation-delay:-1.5s"/>
 
-  <!-- Junction nodes along bottom -->
-  <circle class="node-bright" cx="10" cy="40" r="3"/>
+  <!-- Junction nodes -->
+  <circle class="node-bright" cx="10" cy="40" r="3.5"/>
   <circle class="node" cx="100" cy="40" r="2"/>
   <circle class="node-bright" cx="140" cy="40" r="2"/>
   <circle class="node" cx="180" cy="40" r="2"/>
@@ -122,9 +122,5 @@
   <circle class="node-bright" cx="660" cy="40" r="2"/>
   <circle class="node" cx="680" cy="40" r="2"/>
   <circle class="node-bright" cx="730" cy="40" r="2"/>
-  <circle class="node-bright" cx="790" cy="40" r="3"/>
-
-  <!-- Corner nodes -->
-  <circle class="node-bright" cx="10" cy="40" r="3.5"/>
   <circle class="node-bright" cx="790" cy="40" r="3.5"/>
 </svg>
