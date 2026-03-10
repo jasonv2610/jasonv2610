@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#glow)" stroke="#87A878" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Document with folded corner -->
+    <path d="M12 8h10l6 6v18H12z"/>
+    <path d="M22 8v6h6"/>
+    <!-- Checkmark inside document -->
+    <polyline points="16,22 19,25 25,18" stroke-width="1.8"/>
+    <!-- Flow arrow on right side indicating lifecycle -->
+    <path d="M30 18v8" stroke="#6d8b74" stroke-width="1.2"/>
+    <polyline points="28,24 30,26 32,24" stroke="#6d8b74" stroke-width="1.2"/>
+  </g>
+</svg>
