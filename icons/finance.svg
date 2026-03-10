@@ -1,24 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
   <defs>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="1.8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <g filter="url(#glow)" stroke="#87A878" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Receipt with wavy bottom edge -->
-    <path d="M12 7h16v24l-2.5-1.5-2.5 1.5-2.5-1.5L18 31l-2.5-1.5L13 31l-1-1.5z"/>
-    <!-- Scan lines across receipt -->
-    <line x1="15" y1="13" x2="25" y2="13" stroke-opacity="0.9"/>
-    <line x1="15" y1="17" x2="25" y2="17" stroke-opacity="0.6"/>
-    <line x1="15" y1="21" x2="25" y2="21" stroke-opacity="0.4"/>
-    <!-- Dollar sign accent -->
-    <text x="20" y="18" text-anchor="middle" font-size="0" fill="none"/>
-    <!-- Small scan beam effect on left -->
-    <line x1="10" y1="15" x2="12" y2="15" stroke="#6d8b74" stroke-width="2" stroke-opacity="0.6"/>
-    <line x1="10" y1="19" x2="12" y2="19" stroke="#6d8b74" stroke-width="2" stroke-opacity="0.4"/>
+  <g filter="url(#glow)" stroke="#f59e0b" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Receipt with wavy/cut bottom edge -->
+    <path d="M13,8 L27,8 L27,30 L24.5,28 L22,30 L19.5,28 L17,30 L14.5,28 L13,30 Z"/>
+    <!-- Scan target lines inside receipt -->
+    <line x1="16" y1="14" x2="24" y2="14"/>
+    <line x1="16" y1="18" x2="24" y2="18" stroke-opacity="0.7"/>
+    <line x1="16" y1="22" x2="20" y2="22" stroke-opacity="0.5"/>
+    <!-- OCR scanner beam (left side) -->
+    <line x1="9"  y1="12" x2="12" y2="12" stroke-width="2.2"/>
+    <line x1="9"  y1="15" x2="12" y2="15" stroke-width="1.8"/>
+    <line x1="9"  y1="18" x2="12" y2="18" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- Barcode at bottom of receipt -->
+    <line x1="16" y1="25" x2="16" y2="27.5" stroke-width="1.2"/>
+    <line x1="18" y1="25" x2="18" y2="27.5" stroke-width="2"/>
+    <line x1="20" y1="25" x2="20" y2="27.5" stroke-width="1.2"/>
+    <line x1="22" y1="25" x2="22" y2="27.5" stroke-width="1.8"/>
+    <line x1="24" y1="25" x2="24" y2="27.5" stroke-width="1.2"/>
   </g>
 </svg>
