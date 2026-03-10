@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 50" width="800" height="50">
   <defs>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
@@ -9,7 +9,7 @@
       </feMerge>
     </filter>
     <filter id="softglow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -26,8 +26,8 @@
       100% { stroke-dashoffset: 0; }
     }
     @keyframes node-pulse {
-      0%, 100% { opacity: 0.5; }
-      50% { opacity: 1; }
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.7; }
     }
     .frame {
       stroke: #2d3b28;
@@ -38,8 +38,8 @@
       stroke-linejoin: round;
     }
     .energy {
-      stroke: #6db3f8;
-      stroke-width: 2.2;
+      stroke: #87a878;
+      stroke-width: 1.8;
       fill: none;
       stroke-dasharray: 20 40;
       animation: current-flow 2s linear infinite;
@@ -48,27 +48,27 @@
       stroke-linejoin: round;
     }
     .trace {
-      stroke: #0a0a2e;
+      stroke: #0a1a0a;
       stroke-width: 0.8;
       fill: none;
       opacity: 0.6;
     }
     .trace-energy {
-      stroke: #6db3f8;
+      stroke: #87a878;
       stroke-width: 1;
       fill: none;
       stroke-dasharray: 8 52;
       animation: pulse-fast 3s linear infinite;
       filter: url(#softglow);
-      opacity: 0.6;
+      opacity: 0.4;
     }
     .node {
-      fill: #1a3a8a;
+      fill: #3d5c34;
       filter: url(#glow);
       animation: node-pulse 2s ease-in-out infinite;
     }
     .node-bright {
-      fill: #6db3f8;
+      fill: #87a878;
       filter: url(#glow);
       animation: node-pulse 1.5s ease-in-out infinite;
     }
