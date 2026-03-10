@@ -8,31 +8,31 @@
 
 <p align="center">
   <img alt="Claude AI" src="https://img.shields.io/badge/Claude_AI-191919?style=flat-square&logo=anthropic&logoColor=white"/>
-  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google-gemini&logoColor=white"/>
+  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-473B59?style=flat-square&logo=google-gemini&logoColor=white"/>
   <img alt="ChatGPT" src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white"/>
-  <img alt="n8n" src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+  <img alt="n8n" src="https://img.shields.io/badge/n8n-752639?style=flat-square&logo=n8n&logoColor=white"/>
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
-  <img alt="Apps Script" src="https://img.shields.io/badge/Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white"/>
+  <img alt="Apps Script" src="https://img.shields.io/badge/Apps_Script-21437A?style=flat-square&logo=google&logoColor=white"/>
   <img alt="Slack" src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white"/>
-  <img alt="Anthropic API" src="https://img.shields.io/badge/Anthropic_API-191919?style=flat-square&logo=anthropic&logoColor=white"/>
+  <img alt="Anthropic API" src="https://img.shields.io/badge/Anthropic_API-0D0D0D?style=flat-square&logo=anthropic&logoColor=white"/>
   <img alt="OpenAI API" src="https://img.shields.io/badge/OpenAI_API-74AA9C?style=flat-square&logo=openai&logoColor=white"/>
-  <img alt="Perplexity" src="https://img.shields.io/badge/Perplexity-20808D?style=flat-square&logo=perplexity&logoColor=white"/>
+  <img alt="Perplexity" src="https://img.shields.io/badge/Perplexity-104047?style=flat-square&logo=perplexity&logoColor=white"/>
 </p>
 <p align="center">
   <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/>
   <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
   <img alt="Cursor" src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white"/>
-  <img alt="GitKraken" src="https://img.shields.io/badge/GitKraken-179287?style=flat-square&logo=gitkraken&logoColor=white"/>
+  <img alt="GitKraken" src="https://img.shields.io/badge/GitKraken-0C4944?style=flat-square&logo=gitkraken&logoColor=white"/>
   <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/>
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-206847?style=flat-square&logo=supabase&logoColor=white"/>
   <img alt="Google Sheets" src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=google-sheets&logoColor=white"/>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-1A4D1A?style=flat-square&logo=node.js&logoColor=white"/>
   <img alt="Wix" src="https://img.shields.io/badge/Wix-FAAD4D?style=flat-square&logo=wix&logoColor=black"/>
-  <img alt="ngrok" src="https://img.shields.io/badge/ngrok-1F1E37?style=flat-square&logo=ngrok&logoColor=white"/>
+  <img alt="ngrok" src="https://img.shields.io/badge/ngrok-100F1C?style=flat-square&logo=ngrok&logoColor=white"/>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-213571?style=flat-square&logo=postgresql&logoColor=white"/>
   <img alt="Upstash" src="https://img.shields.io/badge/Upstash-00E9A3?style=flat-square&logo=upstash&logoColor=black"/>
-  <img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
+  <img alt="Telegram" src="https://img.shields.io/badge/Telegram-135372?style=flat-square&logo=telegram&logoColor=white"/>
 </p>
 
 ---
