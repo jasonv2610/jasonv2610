@@ -16,7 +16,7 @@
   <img src="./icons/border-bottom.svg" width="100%" alt=""/>
 </p>
 
-##Idea -> Research -> Build -> Automate -> Deploy
+Idea -> Research -> Build -> Automate -> Deploy
 ---
 
 ### JVI Assistant: AI Operating System `v2.1 · Production`
