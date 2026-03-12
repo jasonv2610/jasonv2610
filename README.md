@@ -9,45 +9,7 @@
 <p align="center">
   <img src="./icons/border-top.svg" width="100%" alt=""/>
 </p>
-
-<!-- Row 1: AI & Models -->
-<p align="center">
-  <img alt="Claude AI" src="https://img.shields.io/badge/Claude_AI-a855f7?style=flat-square&logo=anthropic&logoColor=white&labelColor=0d1117"/>
-  <img alt="ChatGPT" src="https://img.shields.io/badge/ChatGPT-3b82f6?style=flat-square&logo=openai&logoColor=white&labelColor=0d1117"/>
-  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-ec4899?style=flat-square&logo=google-gemini&logoColor=white&labelColor=0d1117"/>
-  <img alt="Perplexity" src="https://img.shields.io/badge/Perplexity-06b6d4?style=flat-square&logo=perplexity&logoColor=white&labelColor=0d1117"/>
-  <img alt="Anthropic API" src="https://img.shields.io/badge/Anthropic_API-a855f7?style=flat-square&logo=anthropic&logoColor=white&labelColor=0d1117"/>
-  <img alt="OpenAI API" src="https://img.shields.io/badge/OpenAI_API-3b82f6?style=flat-square&logo=openai&logoColor=white&labelColor=0d1117"/>
-</p>
-
-<!-- Row 2: Automation & Messaging -->
-<p align="center">
-  <img alt="n8n" src="https://img.shields.io/badge/n8n-ec4899?style=flat-square&logo=n8n&logoColor=white&labelColor=0d1117"/>
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-3b82f6?style=flat-square&logo=github-actions&logoColor=white&labelColor=0d1117"/>
-  <img alt="Apps Script" src="https://img.shields.io/badge/Apps_Script-22c55e?style=flat-square&logo=google&logoColor=white&labelColor=0d1117"/>
-  <img alt="Slack" src="https://img.shields.io/badge/Slack-06b6d4?style=flat-square&logo=slack&logoColor=white&labelColor=0d1117"/>
-  <img alt="Telegram" src="https://img.shields.io/badge/Telegram-06b6d4?style=flat-square&logo=telegram&logoColor=white&labelColor=0d1117"/>
-  <img alt="Google Sheets" src="https://img.shields.io/badge/Google_Sheets-22c55e?style=flat-square&logo=google-sheets&logoColor=white&labelColor=0d1117"/>
-</p>
-
-<!-- Row 3: Dev Tools -->
-<p align="center">
-  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-3b82f6?style=flat-square&logo=visual-studio-code&logoColor=white&labelColor=0d1117"/>
-  <img alt="Cursor" src="https://img.shields.io/badge/Cursor-a855f7?style=flat-square&logo=cursor&logoColor=white&labelColor=0d1117"/>
-  <img alt="GitKraken" src="https://img.shields.io/badge/GitKraken-06b6d4?style=flat-square&logo=gitkraken&logoColor=white&labelColor=0d1117"/>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-22c55e?style=flat-square&logo=node.js&logoColor=white&labelColor=0d1117"/>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3b82f6?style=flat-square&logo=python&logoColor=white&labelColor=0d1117"/>
-  <img alt="Wix" src="https://img.shields.io/badge/Wix-f59e0b?style=flat-square&logo=wix&logoColor=white&labelColor=0d1117"/>
-</p>
-
-<!-- Row 4: Infrastructure -->
-<p align="center">
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-22c55e?style=flat-square&logo=supabase&logoColor=white&labelColor=0d1117"/>
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-3b82f6?style=flat-square&logo=postgresql&logoColor=white&labelColor=0d1117"/>
-  <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-06b6d4?style=flat-square&logo=google-cloud&logoColor=white&labelColor=0d1117"/>
-  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-a855f7?style=flat-square&logo=vercel&logoColor=white&labelColor=0d1117"/>
-  <img alt="Upstash" src="https://img.shields.io/badge/Upstash-fbbf24?style=flat-square&logo=upstash&logoColor=white&labelColor=0d1117"/>
-  <img alt="ngrok" src="https://img.shields.io/badge/ngrok-f59e0b?style=flat-square&logo=ngrok&logoColor=white&labelColor=0d1117"/>
+<img width="2000" height="400" alt="Python" src="https://github.com/user-attachments/assets/b88c6371-d9db-4dfb-9941-c017c9cd4072" />
 </p>
 
 <p align="center">
