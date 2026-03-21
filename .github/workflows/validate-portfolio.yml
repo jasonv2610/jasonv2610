@@ -151,19 +151,41 @@ jobs:
               core.info('All sections PASS.');
             }
 
-      - name: Open issue if portfolio needs work
-        if: ${{ steps.validator.outputs.flag_count > 0 }}
+      - name: Manage portfolio validator issues
+        if: steps.validator.outcome == 'success'
         uses: actions/github-script@v7
         with:
           script: |
-            const flagCount = '${{ steps.validator.outputs.flag_count }}';
+            const flagCount = parseInt('${{ steps.validator.outputs.flag_count }}' || '0');
             const rating    = '${{ steps.validator.outputs.rating }}';
             const runUrl    = 'https://github.com/' + context.repo.owner + '/' + context.repo.repo + '/actions/runs/' + context.runId;
 
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo:  context.repo.repo,
-              title: 'Portfolio Validator: ' + flagCount + ' section(s) flagged -- ' + rating,
-              body:  'The Portfolio Validator flagged ' + flagCount + ' section(s) on the latest push.\n\n**Rating:** ' + rating + '\n\n[View full report](' + runUrl + ') (see job summary)\n\nClose this issue once fixes are applied and the next push passes.',
-              labels: ['portfolio', 'content-quality'],
+            // Close all existing open portfolio-validator issues first
+            const existingIssues = await github.rest.issues.listForRepo({
+              owner:    context.repo.owner,
+              repo:     context.repo.repo,
+              labels:   'content-quality',
+              state:    'open',
+              per_page: 100,
             });
+
+            for (const issue of existingIssues.data) {
+              await github.rest.issues.update({
+                owner:        context.repo.owner,
+                repo:         context.repo.repo,
+                issue_number: issue.number,
+                state:        'closed',
+                state_reason: 'not_planned',
+              });
+            }
+
+            // Open new issue only if there are flags
+            if (flagCount > 0) {
+              await github.rest.issues.create({
+                owner:  context.repo.owner,
+                repo:   context.repo.repo,
+                title:  'Portfolio Validator: ' + flagCount + ' section(s) flagged -- ' + rating,
+                body:   'The Portfolio Validator flagged ' + flagCount + ' section(s) on the latest push.\n\n**Rating:** ' + rating + '\n\n[View full report](' + runUrl + ') (see job summary)\n\nClose this issue once fixes are applied and the next push passes.',
+                labels: ['portfolio', 'content-quality'],
+              });
+            }
