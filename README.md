@@ -16,7 +16,7 @@
   <img src="./icons/border-bottom.svg" width="100%" alt=""/>
 </p>
 
-                                            Idea -> Research -> Build -> Automate -> Deploy
+                                            Seven agents. Twelve workflows. Zero manual decisions.
 ---
 
 ### JVI Assistant: AI Operating System `v2.1 · Production`
@@ -55,7 +55,7 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1800&color=87A878&center=true&vCenter=true&width=650&lines=%E2%9A%A1+If+it+runs+twice%2C+I+automate+it.;%F0%9F%A4%96+My+agents+work+while+I+sleep.;%F0%9F%A7%A0+6+agents%2C+12+workflows%2C+zero+babysitting.;%E2%98%95+Powered+by+caffeine.;Multi-Agent+Orchestration;Self-healing+workflows+that+run+without+me" alt="Jason in four lines"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1800&color=87A878&center=true&vCenter=true&width=650&lines=%E2%9A%A1+If+it+runs+twice%2C+I+automate+it.;%F0%9F%A4%96+My+agents+work+while+I+sleep.;%F0%9F%A7%A0+7+agents%2C+12+workflows%2C+zero+babysitting.;Self-healing+workflows+that+run+without+me" alt="Jason in four lines"/>
 </p>
 
 <p align="center">
@@ -69,14 +69,16 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:16213e&height=80&text=Automate%20the%20boring.%20Amplify%20what%20matters.&fontSize=22&fontColor=87a878&animation=fadeIn&fontAlignY=55"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:16213e&height=80&text=Every%20recurring%20decision%20is%20a%20candidate%20for%20automation.&fontSize=20&fontColor=87a878&animation=fadeIn&fontAlignY=55"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&pause=2000&color=6d8b74&center=true&vCenter=true&multiline=true&width=700&height=60&lines=Build+agents%2C+not+just+code.+Ship+systems%2C+not+just+features.;Every+workflow+I+deploy+is+a+decision+I+never+have+to+make+again." alt="Manifesto"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&pause=2000&color=6d8b74&center=true&vCenter=true&multiline=true&width=700&height=60&lines=Build+agents+that+run+without+you.+Ship+systems+that+replace+decisions.;Every+workflow+I+deploy+is+a+decision+I+never+have+to+make+again." alt="Manifesto"/>
 </p>
 
 ---
+
+<p align="center"><sub>📊 Contribution Activity</sub></p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=jasonv2610&theme=tokyonight-duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"/>
@@ -87,6 +89,8 @@
 ![GitHub Metrics](./github-metrics.svg)
 
 ---
+
+<p align="center"><sub>🐍 Daily contributions — 365 days of commits</sub></p>
 
 <p align="center">
   <picture>
