@@ -16,12 +16,12 @@
   <img src="./icons/border-bottom.svg" width="100%" alt=""/>
 </p>
 
-                                            Seven agents. Twelve workflows. Zero manual decisions.
+                                            Zero manual intervention across core business processes
 ---
 
 ### JVI Assistant: AI Operating System `v2.1 · Production`
 
-> Hub-and-spoke multi-agent system. One orchestrator. Seven specialized agents. Running live.
+> Hub-and-spoke multi-agent system. One orchestrator. Seven specialized agents. Operating in a live production environment.
 
 <table width="100%">
   <colgroup>
