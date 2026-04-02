@@ -9,7 +9,7 @@
 <p align="center">
   <img src="./icons/border-top.svg" width="100%" alt=""/>
 </p>
-<img width="2000" height="400" alt="Python Github 2000x400" src="https://github.com/user-attachments/assets/392a5ce0-2266-4973-b3f3-86a59665bf11" />
+<img width="2000" height="400" alt="Python Github 2000x400" src="https://github.com/user-attachments/assets/bdb25fa2-ad31-4e60-bcad-5014e45b09fe" />
 </p>
 
 <p align="center">
