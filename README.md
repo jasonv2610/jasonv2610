@@ -81,7 +81,7 @@
 <p align="center"><sub>📊 Contribution Activity</sub></p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=jasonv2610&theme=tokyonight-duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"/>
+  <img src="https://streak-stats.demolab.com?user=jasonv2610&theme=tokyonight-duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=86400"/>
 </p>
 
 ---
@@ -90,7 +90,7 @@
 
 ---
 
-<p align="center"><sub>🐍 Daily contributions — 365 days of commits</sub></p>
+<p align="center"><sub>🐍 Daily contributions: 365 days of commits</sub></p>
 
 <p align="center">
   <picture>
