@@ -9,14 +9,16 @@
 <p align="center">
   <img src="./icons/border-top.svg" width="100%" alt=""/>
 </p>
-<img width="2000" height="400" alt="Python Github 2000x400" src="https://github.com/user-attachments/assets/9df99ec5-a40a-40a6-a21a-39be4641ccc0" />
+<p align="center">
+  <img width="2000" height="400" alt="Python Github 2000x400" src="https://github.com/user-attachments/assets/9df99ec5-a40a-40a6-a21a-39be4641ccc0" />
 </p>
 
 <p align="center">
   <img src="./icons/border-bottom.svg" width="100%" alt=""/>
 </p>
 
-                                            Zero manual intervention across core business processes
+<p align="center"><sub>Zero manual intervention across core business processes</sub></p>
+
 ---
 
 ### JVI Assistant: AI Operating System `v2.1 · Production`
@@ -77,9 +79,11 @@
 </p>
 
 ---
+
 <p align="center">
-  <img src="./github-metrics.svg" alt="Languages"/>
+  <img src="https://raw.githubusercontent.com/jasonv2610/jasonv2610/main/github-metrics.svg?v=3" alt="Languages" width="480"/>
 </p>
+
 ---
 
 <p align="center"><sub>🐍 Daily contributions: 365 days of commits</sub></p>
