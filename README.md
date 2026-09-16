@@ -77,10 +77,9 @@
 </p>
 
 ---
-
-
-![GitHub Metrics](./github-metrics.svg)
-
+<p align="center">
+  <img src="./github-metrics.svg" alt="Languages"/>
+</p>
 ---
 
 <p align="center"><sub>🐍 Daily contributions: 365 days of commits</sub></p>
