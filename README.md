@@ -52,7 +52,7 @@
   </tr>
 </table>
 
-**[Multi-Agent Architecture →](https://github.com/jasonv2610/multi-agent-orchestration-architecture)** &nbsp;|&nbsp; **[Prompt Engineering →](https://github.com/jasonv2610/prompt-architecture-playbook)** &nbsp;|&nbsp; **[Interactive Portfolio & Case Studies →](https://jasonhvo.com)**
+**[Multi-Agent Architecture →](https://github.com/jasonv2610/multi-agent-orchestration-architecture)** &nbsp;|&nbsp; **[Prompt Engineering →](https://github.com/jasonv2610/prompt-architecture-playbook)**
 
 ---
 
@@ -96,11 +96,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <a href="https://jasonhvo.com">🌐 jasonhvo.com</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/jason-hung-vo/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:jasonv2610@gmail.com">jasonv2610@gmail.com</a>
-</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:87a878,50:6d8b74,100:355070&height=100&section=footer"/>
